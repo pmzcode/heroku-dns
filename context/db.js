@@ -1,4 +1,8 @@
+
 module.exports = (Sequelize, config) => {
+
+    const dbConfig = process.env.PMZ_PROJECT === 'production' ? config.prod : config.db;
+
     const options = {
         host: config.db.host,
         dialect: config.db.dialect,
