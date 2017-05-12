@@ -41,7 +41,8 @@ app.use('/api', apiController);
 dbcontext.sequelize
     .sync()
     .then(() => {
-        app.listen(3000, () => console.log('Running on http://localhost:3000'));
+        app.listen(3000, () => {console.log('Running on http://localhost:3000');
+            console.log(process.env.PMZ_PROJECT);});
     })
     .catch((err) => console.log(err));
 
