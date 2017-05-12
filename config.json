@@ -13,7 +13,7 @@
 
     "host": "ec2-54-163-234-20.compute-1.amazonaws.com",
     "name": "d8e579to8e8vdm",
-    "user": git "bjjgkgcrynsuud",
+    "user": "bjjgkgcrynsuud",
     "password": "015c59290377d8fb8efcee4f1798b4514839b4f874756e099ad994b4dd32b8d9",
     "dialect": "postgres"
 
