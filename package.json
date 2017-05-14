@@ -21,7 +21,9 @@
     "pg-hstore": "^2.3.2",
     "sequelize": "^3.24.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "siege": "^0.2.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/pmzcode/heroku-dns.git"
